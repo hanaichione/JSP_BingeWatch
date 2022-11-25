@@ -1,0 +1,10 @@
+package com.edu.test;
+
+import javax.servlet.ServletException;
+
+public class FirstServlet {
+	
+	public void init(ServletConfig config) throws ServletException{
+		System.out.println("init() 실행됨");
+	}
+}

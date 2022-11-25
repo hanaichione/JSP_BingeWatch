@@ -1,0 +1,51 @@
+package com.controller;
+
+import java.io.IOException;
+import java.io.PrintWriter;
+
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+@WebServlet("/MemberServlet")
+public class MemberServlet extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+       
+
+    public MemberServlet() {
+        super();
+        // TODO Auto-generated constructor stub
+    }
+
+
+	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		System.out.println("doGet호출");
+		
+		request.setCharacterEncoding("utf-8");
+		
+		String name = request.getParameter("name");
+		String sex = request.getParameter("sex");
+		String [] hobby = request.getParameterValues("hobby");
+		String marriage = request.getParameter("marriage");
+		
+		response.setContentType("text/html;charset=UTF-8"); 
+		PrintWriter out = response.getWriter();
+		out.print("<html><body>");
+		out.print("이름은 " + name + "<br>");
+		out.print("성별은 " + sex + "<br>");
+		out.print("취미는 ");
+		for (String s : hobby) {
+			out.print(s + " ");
+		}
+		out.print("<br>");
+		out.print("결혼 상태는 " + marriage + "입니다");
+	}
+
+	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		// TODO Auto-generated method stub
+		doGet(request, response);
+	}
+
+}

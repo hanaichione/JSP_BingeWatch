@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<form>
+		<b>[티켓 예매 정보 입력]</b>
+		<hr>
+		[티켓 구매일 기준 : 미성년자 - 19세 미만, 경로자 : 만 60세 이상]
+		<table border="1">
+			<tr>
+				<th>구매관련안내</th>
+				<td>생년월일을 기준으로 구매일 기준 할인율은 다음과 같습니다. 
+				미성년자(40%), 성인(10%), 경로우대(50%)</td>
+			</tr>
+			<tr>
+				<th>생년월일</th>
+				<td><input type="text" name="birth"> [입력 예 : 2015/01/05]</td>
+			</tr>
+			<tr>
+				<th>티켓선택</th>
+				
+			</tr>
+		</table>
+	</form>
+</body>
+</html>

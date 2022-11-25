@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<form action="MemberServlet">
+	이름:<input type="text" name="name"><br>
+	주민번호:<input type="text" name="number"><br>
+	취미 : <br>
+	야구<input type="checkbox" name="hobby" value="baseball"><br>
+	농구<input type="checkbox" name="hobby" value="basketball"><br>
+	축구<input type="checkbox" name="hobby" value="soccer"><br>
+	결혼 : <br>
+	미혼<input type="radio" name="marriage" value="no"><br>
+	결혼<input type="radio" name="marriage" value="yes"><br>	
+	<input type="submit" value="가입">
+</form>
+</body>
+</html>

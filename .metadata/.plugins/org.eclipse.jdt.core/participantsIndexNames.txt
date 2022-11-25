@@ -1,0 +1,7 @@
+INDEX VERSION 1.131
+C:\JSP BingeWatch\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1959153267.index
+\servletTest\src
+C:\JSP BingeWatch\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2051058147.index
+\JSPWorkshop01\src
+C:\JSP BingeWatch\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1132429200.index
+\JSPWorkshop01\src
