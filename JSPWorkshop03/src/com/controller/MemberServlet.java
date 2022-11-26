@@ -26,7 +26,7 @@ public class MemberServlet extends HttpServlet {
 		request.setCharacterEncoding("utf-8");
 		
 		String name = request.getParameter("name");
-		String sex = ((request.getParameter("number").charAt(7)=='2')?"여성":"외계인");
+		String sex = ((request.getParameter("number").charAt(7)=='2')?"여성":"남성");
 		String [] hobby = request.getParameterValues("hobby");
 		String marriage = request.getParameter("marriage");
 		

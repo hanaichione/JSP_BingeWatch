@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>상품관리</title>
+</head>
+<body>
+	<b>[상품 정보 입력]</b><br>
+	<span style="color: red;">상품아이디가 동일하게 입력되면 재고를 증가시킨다.</span>
+	<br>
+	<form action="product" method="post">
+		<table border=1>
+			<tr>
+				<th>상품명</th>
+				<td><input type="text" name="productName"></td>
+			</tr>
+			<tr>
+				<th>상품아이디</th>
+				<td><input type="text" name="productId"></td>
+			</tr>
+			<tr>
+				<th>상품수량</th>
+				<td><input type="text" name="productAmount"></td>
+			</tr>
+			<tr>
+				<td colspan=2 style="text-align:center;"><input type="submit"> <input type="reset">
+				</td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>

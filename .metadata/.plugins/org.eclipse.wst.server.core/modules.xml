@@ -5,4 +5,5 @@
   <module moduleId="org.eclipse.jst.jee.server:JSPWorkshop03" serverId="Tomcat v8.5 Server at localhost"/>
   <module moduleId="org.eclipse.jst.jee.server:JSPWorkshop04" serverId="Tomcat v8.5 Server at localhost"/>
   <module moduleId="org.eclipse.jst.jee.server:servletTest" serverId="Tomcat v8.5 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:JSPWorkshop05" serverId="Tomcat v8.5 Server at localhost"/>
 </modules>

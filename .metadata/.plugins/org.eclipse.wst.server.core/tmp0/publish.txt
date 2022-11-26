@@ -1,6 +1,7 @@
 #Tomcat publish data
-#Fri Nov 25 21:51:35 KST 2022
+#Sat Nov 26 21:47:22 KST 2022
 org.eclipse.jst.jee.server\:JSPWorkshop04=C\:\\eclipse\\JSP_PROF\\apache-tomcat-8.5.57\\webapps\\JSPWorkshop04
 org.eclipse.jst.jee.server\:JSPWorkshop03=C\:\\eclipse\\JSP_PROF\\apache-tomcat-8.5.57\\webapps\\JSPWorkshop03
 org.eclipse.jst.jee.server\:JSPWorkshop02=C\:\\eclipse\\JSP_PROF\\apache-tomcat-8.5.57\\webapps\\JSPWorkshop02
 org.eclipse.jst.jee.server\:servletTest=C\:\\eclipse\\JSP_PROF\\apache-tomcat-8.5.57\\webapps\\servletTest
+org.eclipse.jst.jee.server\:JSPWorkshop05=C\:\\eclipse\\JSP_PROF\\apache-tomcat-8.5.57\\webapps\\JSPWorkshop05
