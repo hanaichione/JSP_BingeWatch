@@ -4,6 +4,10 @@
 	xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
 	id="WebApp_ID" version="3.1">
 	<display-name>servletTest</display-name>
+	<context-param>
+		<param-name>contextConfig</param-name>
+		<param-value>/WEB-INF/context.xml</param-value>
+	</context-param>
 	<servlet>
 		<servlet-name>InitParamServlet</servlet-name>
 		<servlet-class>com.controller.InitParamServlet</servlet-class>
@@ -16,7 +20,8 @@
 			<param-value>aaa@naver.com</param-value>
 		</init-param>
 	</servlet>
-	
+
+
 	<servlet-mapping>
 		<servlet-name>InitParamServlet</servlet-name>
 		<url-pattern>/IntiParamServlet</url-pattern>
